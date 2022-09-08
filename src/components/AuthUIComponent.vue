@@ -1,6 +1,5 @@
 <script setup>
 import {isLoggedIn, getLoggedInUserInfo, getAuthURI, clearCookiesOnLogout} from "../util/auth.js";
-import {useRouter} from 'vue-router'
 
 function logoutUser() {
   clearCookiesOnLogout()

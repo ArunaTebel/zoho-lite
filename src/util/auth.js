@@ -27,7 +27,6 @@ export const setCookiesOnLogin = (callback) => {
             env.VITE_ZOHO_ID_TOKEN_COOKIE_NAME,
             params.get('id_token')
         )
-        console.log('asdas')
         callback(true)
     }
     callback(false)
