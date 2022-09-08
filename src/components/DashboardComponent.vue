@@ -1,6 +1,6 @@
 <script setup>
 import {onMounted} from "vue";
-import {isLoggedIn} from "../util/auth.js";
+import {isLoggedIn} from "../util/authutils.js";
 import {useRouter} from 'vue-router';
 
 onMounted(() => {

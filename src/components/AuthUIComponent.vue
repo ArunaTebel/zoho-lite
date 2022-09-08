@@ -1,5 +1,5 @@
 <script setup>
-import {isLoggedIn, getLoggedInUserInfo, getAuthURI, clearCookiesOnLogout} from "../util/auth.js";
+import {isLoggedIn, getLoggedInUserInfo, getAuthURI, clearCookiesOnLogout} from "../util/authutils.js";
 
 function logoutUser() {
   clearCookiesOnLogout()

@@ -1,5 +1,5 @@
 <script setup>
-import {isLoggedIn} from "../util/auth.js";
+import {isLoggedIn} from "../util/authutils.js";
 
 </script>
 <template>

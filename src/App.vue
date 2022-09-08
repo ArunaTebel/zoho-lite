@@ -1,7 +1,7 @@
 <script setup>
 import {onBeforeMount} from "vue";
 import AuthUIComponent from "./components/AuthUIComponent.vue";
-import {setCookiesOnLogin} from "./util/auth.js";
+import {setCookiesOnLogin} from "./util/authutils.js";
 import {useRouter} from "vue-router";
 
 onBeforeMount(() => {
